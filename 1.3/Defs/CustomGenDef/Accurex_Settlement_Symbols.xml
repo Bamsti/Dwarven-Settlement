@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_CastleWallEmbrasures_BlocksSlate</defName>
+  <thing>DankPyon_CastleWallEmbrasures</thing>
+  <stuff>BlocksSlate</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_MineableGold</defName>
+  <thing>DankPyon_MineableGold</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_MineableCoal</defName>
+  <thing>DankPyon_MineableCoal</thing>
+</KCSG.SymbolDef>
+
+</Defs>

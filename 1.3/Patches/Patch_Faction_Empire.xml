@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/FactionDef[defName="Empire"]</xpath>
+					<value>
+						  <li Class="KCSG.FactionSettlement">
+							<useStructureLayout>True</useStructureLayout>
+							<chooseFromlayouts>
+							  <li>Accurex_DwarvenSettlement_1</li>
+							</chooseFromlayouts>
+						  </li>
+					</value>
+				 </li>
+
+			</operations>
+		</match>
+		
+	</Operation>
+</Patch>
